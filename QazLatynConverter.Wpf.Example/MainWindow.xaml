@@ -1,0 +1,19 @@
+﻿<Window x:Class="QazLatynConverter.Wpf.Example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QazLatynConverter.Wpf.Example"
+        mc:Ignorable="d"
+        Title="QazLatynConverter.Wpf.Example" Height="444.643" Width="635.268" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,0" HorizontalAlignment="Left" Width="646">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="152*"/>
+            <ColumnDefinition Width="363*"/>
+            <ColumnDefinition Width="131*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox HorizontalAlignment="Left" Height="152" Margin="23,25,0,0" TextWrapping="Wrap" Name="txtCyrl" VerticalAlignment="Top" Width="579" Grid.ColumnSpan="3"/>
+        <TextBox HorizontalAlignment="Left" Height="152" Margin="23,229,0,0" TextWrapping="Wrap" Name="txtLatyn" VerticalAlignment="Top" Width="579" Grid.ColumnSpan="3"/>
+        <Button Content="Кирилл » Латын" HorizontalAlignment="Left" Margin="75,188,0,0" Name="btnCyrl2Latyn" VerticalAlignment="Top" Width="130" Height="27" Grid.Column="1" Click="btnCyrl2Latyn_Click"/>
+    </Grid>
+</Window>
